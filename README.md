@@ -1,37 +1,26 @@
-# Emotion Detection 💬🧠
+# Emotion Detection using Machine Learning 🤖💬
 
-A simple Machine Learning project to detect emotions from text using **Natural Language Processing (NLP)** and **Random Forest Classifier**.
+This project uses a dataset of text-based sentences and classifies the **emotion** behind them using a Machine Learning model (Random Forest).
 
-## 📌 Project Overview
+### 🚀 Features
+- Text preprocessing and cleaning
+- Emotion classification (e.g., joy, sadness, fear, etc.)
+- Trained ML model with prediction support
+- Runs in Google Colab
 
-This project takes a sentence as input and predicts the **emotion** expressed in it. It's useful for:
-- Customer feedback analysis
-- Chatbots
-- Sentiment monitoring
+### 🧠 Dataset
+We used `emotion_dataset.csv`, a labeled dataset containing text and corresponding emotions.
 
----
+### 🛠️ How to Run (on Colab)
+1. Open the notebook:  
+   [Click to open in Google Colab](https://colab.research.google.com/github/Jyothsnaguthula01/emotion-detection/blob/main/emotion_detector.ipynb)
 
-## 🛠️ Tools & Technologies Used
+2. Run all cells (Runtime → Run All)
 
-- Python 🐍
-- Pandas
-- NumPy
-- Scikit-learn
-- NLTK (Natural Language Toolkit)
-- Jupyter Notebook
+3. Input a sentence and get the predicted emotion!
 
----
+### 📝 Example
+```text
+Input: I’m scared and don’t know what to do.
+Predicted Emotion: fear
 
-## 📂 Files in This Repo
-
-| File Name               | Description                                   |
-|------------------------|-----------------------------------------------|
-| `emotion_detector.ipynb` | Main notebook for training & testing the model |
-| `emotion_dataset.csv`    | Dataset with sentences labeled by emotions    |
-| `README.md`              | Project overview and instructions              |
-
----
-
-## ⚙️ How to Run
-
-1. Clone this repo or download the `.ipynb` file:
