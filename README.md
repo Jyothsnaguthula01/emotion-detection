@@ -1,26 +1,31 @@
-# Emotion Detection using Machine Learning 🤖💬
+#  Emotion Detection App
 
-This project uses a dataset of text-based sentences and classifies the **emotion** behind them using a Machine Learning model (Random Forest).
+A smart AI-powered application that detects emotions from **text**, **facial expressions**, and **voice**, and alerts HR in case of negative emotions like sadness, anger, or fear. Designed as part of the Zidio AI-Powered Task Optimizer project.
 
-### 🚀 Features
-- Text preprocessing and cleaning
-- Emotion classification (e.g., joy, sadness, fear, etc.)
-- Trained ML model with prediction support
-- Runs in Google Colab
+---
 
-### 🧠 Dataset
-We used `emotion_dataset.csv`, a labeled dataset containing text and corresponding emotions.
+##  Features
 
-### 🛠️ How to Run (on Colab)
-1. Open the notebook:  
-   [Click to open in Google Colab](https://colab.research.google.com/github/Jyothsnaguthula01/emotion-detection/blob/main/emotion_detector.ipynb)
+- Text-based emotion detection using NLP and machine learning.
+- Facial emotion detection using webcam and DeepFace.
+- Voice emotion detection using MFCC and machine learning.
+- Automatic HR email alert for negative emotions.
+- Friendly UI built with Streamlit.
+- Wellness suggestions and motivational quotes.
 
-2. Run all cells (Runtime → Run All)
+---
 
-3. Input a sentence and get the predicted emotion!
+##  Technologies Used
 
-### 📝 Example
-```text
-Input: I’m scared and don’t know what to do.
-Predicted Emotion: fear
+- Python
+- Streamlit
+- OpenCV, DeepFace
+- Librosa, sounddevice
+- scikit-learn
+- Joblib, NLTK
+- Gmail SMTP for email alerts
+
+---
+
+##  Project Structure
 
