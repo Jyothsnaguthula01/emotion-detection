@@ -43,13 +43,6 @@ emotion-detection-app/
 ├── requirements.txt             # All dependencies
 ├── README.md                    # Project documentation
 └── .streamlit/                  # Streamlit config
-##  Screenshots
-
-![Text Emotion Detection](screenshots/text_emotion.png)  
-![Voice Emotion Detection](screenshots/voice_emotion.png)  
-![Facial Emotion Detection](screenshots/face_emotion.png)
----
-
 ##  How to Run
 
 1. Clone the repo:https://github.com/Jyothsnaguthula01/emotion-detection.git  
