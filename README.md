@@ -28,4 +28,18 @@ A smart AI-powered application that detects emotions from **text**, **facial exp
 ---
 
 ##  Project Structure
-
+emotion-detection-app/
+│
+├── app.py                        # Streamlit main app
+├── models/
+│   └── train_voice_model.py     # Voice emotion model training
+├── scripts/
+│   └── email_alerts.py          # HR email alert system
+├── voice_data/                  # Voice dataset (excluded in GitHub)
+├── screenshots/                 # Project screenshots for documentation
+├── model.pkl                    # Trained model for text emotion detection
+├── vectorizer.pkl               # TF-IDF vectorizer for text
+├── voice_emotion_model.pkl      # Trained voice emotion model
+├── requirements.txt             # All dependencies
+├── README.md                    # Project documentation
+└── .streamlit/                  # Streamlit config
